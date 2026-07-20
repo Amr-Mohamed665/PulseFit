@@ -1,0 +1,1389 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>PulseFit Pro X — Know Your Body. Own Your Day.</title>
+  <meta name="description" content="PulseFit Pro X: The world's most advanced AI-powered smartwatch. 14-day battery, military durability, ECG + Blood Oxygen, AMOLED display. Pre-order now." />
+  <meta name="keywords" content="smartwatch, fitness tracker, PulseFit, health monitor, ECG, blood oxygen, GPS watch, wearable" />
+  <link rel="canonical" href="https://pulsefit.io/" />
+
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://pulsefit.io/" />
+  <meta property="og:title"       content="PulseFit Pro X — Know Your Body. Own Your Day." />
+  <meta property="og:description" content="AI-powered health insights. 14-day battery life. Military-grade durability. Pre-order the PulseFit Pro X today." />
+  <meta property="og:image"       content="assets/images/watch-hero.png" />
+
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="PulseFit Pro X — Know Your Body. Own Your Day." />
+  <meta name="twitter:description" content="The smartwatch that thinks for you. AI insights, 14-day battery, military-grade build." />
+  <meta name="twitter:image"       content="assets/images/watch-hero.png" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "PulseFit Pro X",
+    "description": "AI-powered premium smartwatch with 14-day battery, ECG, Blood Oxygen monitoring, GPS and military-grade durability.",
+    "brand": { "@type": "Brand", "name": "PulseFit" },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "199",
+      "availability": "https://schema.org/PreOrder"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "3248"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div id="scroll-progress" aria-hidden="true"></div>
+
+<aside id="announcement-bar" class="announcement-bar" aria-label="Promotions and offers">
+  <p class="announcement-bar__track" aria-hidden="true">
+    <span class="announcement-bar__item"><i class="bi bi-truck"></i> <span>Free Worldwide Shipping on Orders Over $99</span></span>
+    <span class="announcement-bar__sep">•</span>
+    <span class="announcement-bar__item"><i class="bi bi-arrow-repeat"></i> <span>30-Day Money-Back Guarantee — No Questions Asked</span></span>
+    <span class="announcement-bar__sep">•</span>
+    <span class="announcement-bar__item"><i class="bi bi-gift-fill"></i> <span>Summer Sale: 15% Off with code PULSE15</span></span>
+    <span class="announcement-bar__sep">•</span>
+    <span class="announcement-bar__item"><i class="bi bi-lightning-charge-fill"></i> <span>Limited Pre-Order Stock Available</span></span>
+    <span class="announcement-bar__sep">•</span>
+    <span class="announcement-bar__item"><i class="bi bi-truck"></i> <span>Free Worldwide Shipping on Orders Over $99</span></span>
+    <span class="announcement-bar__sep">•</span>
+    <span class="announcement-bar__item"><i class="bi bi-arrow-repeat"></i> <span>30-Day Money-Back Guarantee — No Questions Asked</span></span>
+    <span class="announcement-bar__sep">•</span>
+    <span class="announcement-bar__item"><i class="bi bi-gift-fill"></i> <span>Summer Sale: 15% Off with code PULSE15</span></span>
+  </p>
+  <button id="announce-close" class="announcement-bar__close" aria-label="Close announcement"><i class="bi bi-x"></i></button>
+</aside>
+
+<header>
+  <nav id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container navbar__container">
+
+      <a href="#hero" class="navbar__logo" aria-label="PulseFit Pro X — Home">
+        <div class="navbar__logo-icon" aria-hidden="true">
+          <i class="bi bi-activity text-white" style="font-size: 20px;"></i>
+        </div>
+        PulseFit
+      </a>
+
+      <ul class="navbar__nav" role="list">
+        <li><a href="#features"     class="navbar__link" id="nav-features">Features</a></li>
+        <li><a href="#about"        class="navbar__link" id="nav-about">About</a></li>
+        <li><a href="#health"       class="navbar__link" id="nav-health">Health</a></li>
+        <li><a href="#app"          class="navbar__link" id="nav-app">App</a></li>
+        <li><a href="#pricing"      class="navbar__link" id="nav-pricing">Pricing</a></li>
+        <li><a href="#faq"          class="navbar__link" id="nav-faq">FAQ</a></li>
+        <li><a href="#contact"      class="navbar__link" id="nav-contact">Contact</a></li>
+      </ul>
+
+      <div class="navbar__actions">
+        
+        <button id="theme-toggle" class="navbar__theme-btn" aria-label="Toggle dark mode" title="Toggle theme">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+        
+        <a href="#pricing" class="navbar__cta btn btn--primary" id="nav-preorder">Pre-Order Now</a>
+        
+        <button id="hamburger" class="navbar__hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-overlay" class="navbar__overlay" aria-hidden="true"></div>
+
+    <div id="mobile-menu" class="navbar__mobile" role="dialog" aria-label="Mobile navigation" aria-modal="true">
+      <div class="navbar__mobile-header">
+        <a href="#hero" class="navbar__logo" style="color: var(--clr-text);">
+          <div class="navbar__logo-icon">
+            <i class="bi bi-activity text-white" style="font-size: 20px;"></i>
+          </div>
+          PulseFit
+        </a>
+        <button id="mobile-close" class="navbar__mobile-close" aria-label="Close menu"><i class="bi bi-x"></i></button>
+      </div>
+      <nav class="navbar__mobile-nav">
+        <a href="#features"  class="navbar__mobile-link" data-mobile-link>Features</a>
+        <a href="#about"     class="navbar__mobile-link" data-mobile-link>About</a>
+        <a href="#health"    class="navbar__mobile-link" data-mobile-link>Health Tracking</a>
+        <a href="#app"       class="navbar__mobile-link" data-mobile-link>Mobile App</a>
+        <a href="#pricing"   class="navbar__mobile-link" data-mobile-link>Pricing</a>
+        <a href="#faq"       class="navbar__mobile-link" data-mobile-link>FAQ</a>
+        <a href="#contact"   class="navbar__mobile-link" data-mobile-link>Contact</a>
+      </nav>
+      <div class="navbar__mobile-cta">
+        <a href="#pricing" class="btn btn--primary btn--lg" style="width:100%;justify-content:center;" data-mobile-link>
+          Pre-Order Now <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+
+<section id="hero" class="hero" aria-labelledby="hero-title">
+
+  <div class="hero__blobs" aria-hidden="true">
+    <div class="hero__blob hero__blob--1"></div>
+    <div class="hero__blob hero__blob--2"></div>
+    <div class="hero__blob hero__blob--3"></div>
+  </div>
+
+  <div class="container hero__container">
+
+    <div class="hero__content" data-animate="fade-right">
+      <div class="hero__badge-wrap">
+        <span class="badge-pill badge-pill--new"><i class="bi bi-stars"></i> New Release 2025</span>
+      </div>
+
+      <h1 class="hero__title" id="hero-title">
+        Know Your Body.<br>
+        <span class="gradient-text">Own Your Day.</span>
+      </h1>
+
+      <p class="hero__desc">
+        Meet the PulseFit Pro X — the world's most intelligent smartwatch. Powered by real-time AI health insights, a 14-day battery, and military-grade build quality. Designed for people who refuse to settle.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#pricing" class="btn btn--primary btn--lg" id="hero-preorder-btn" aria-label="Pre-order PulseFit Pro X">
+          Pre-Order Now <i class="bi bi-arrow-right ms-1"></i>
+        </a>
+        <a href="#features" class="btn btn--ghost btn--lg" id="hero-demo-btn" aria-label="View product features">
+          <i class="bi bi-play-fill me-1"></i> Explore Features
+        </a>
+      </div>
+
+      <div class="hero__stats" role="list" aria-label="Key statistics">
+        <div role="listitem">
+          <span class="hero__stat-num">10K+</span>
+          <span class="hero__stat-label">Happy Customers</span>
+        </div>
+        <div role="listitem">
+          <span class="hero__stat-num">4.9 <i class="bi bi-star-fill text-warning" style="font-size: 0.85em; vertical-align: middle;"></i></span>
+          <span class="hero__stat-label">Average Rating</span>
+        </div>
+        <div role="listitem">
+          <span class="hero__stat-num">40+</span>
+          <span class="hero__stat-label">Countries</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__visual" data-animate="fade-left" data-delay="200">
+      <div class="hero__watch-wrap" aria-label="PulseFit Pro X smartwatch product image">
+
+        <div class="float-badge float-badge--1" aria-hidden="true">
+          <span class="float-badge__icon"><i class="bi bi-cpu-fill text-primary"></i></span>
+          AI Health Insights
+        </div>
+
+        <img
+          src="assets/images/watch-hero.png"
+          alt="PulseFit Pro X smartwatch showing health metrics on AMOLED display"
+          class="hero__watch"
+          loading="eager"
+          width="460"
+          height="460"
+        />
+
+        <div class="float-badge float-badge--2" aria-hidden="true">
+          <span class="float-badge__icon"><i class="bi bi-battery-charging text-success"></i></span>
+          14-Day Battery
+        </div>
+
+        <div class="float-badge float-badge--3" aria-hidden="true">
+          <span class="float-badge__icon"><i class="bi bi-shield-fill-check text-info"></i></span>
+          Military Grade
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="features" class="section features" aria-labelledby="features-title">
+  <div class="container">
+
+    <div class="features__header" data-animate="fade-up">
+      <span class="section-label">Why PulseFit Pro X</span>
+      <h2 class="section-title" id="features-title">
+        Engineered for the <span class="gradient-text">Next Level</span>
+      </h2>
+      <p class="section-subtitle">
+        Six cutting-edge technologies packed into one ultra-slim device. Every feature built with purpose.
+      </p>
+    </div>
+
+    <div class="features__grid">
+
+      <article class="feature-card" data-animate="fade-up" data-delay="100" tabindex="0">
+        <div class="feature-card__icon feature-card__icon--blue" aria-hidden="true"><i class="bi bi-cpu-fill"></i></div>
+        <h3 class="feature-card__title">AI Health Insights</h3>
+        <p class="feature-card__desc">Our proprietary AI engine analyzes 50+ biometric data points around the clock, delivering personalized health recommendations and early warning alerts — before you even feel them.</p>
+      </article>
+
+      <article class="feature-card" data-animate="fade-up" data-delay="200" tabindex="0">
+        <div class="feature-card__icon feature-card__icon--green" aria-hidden="true"><i class="bi bi-battery-charging"></i></div>
+        <h3 class="feature-card__title">14-Day Battery Life</h3>
+        <p class="feature-card__desc">Industry-leading 580mAh battery lasts up to 14 days in standard mode — 7 days with GPS always on. Ultra-fast 45-minute charge gets you back to 100% before your morning run.</p>
+      </article>
+
+      <article class="feature-card" data-animate="fade-up" data-delay="300" tabindex="0">
+        <div class="feature-card__icon feature-card__icon--orange" aria-hidden="true"><i class="bi bi-shield-fill-check"></i></div>
+        <h3 class="feature-card__title">Military-Grade Build</h3>
+        <p class="feature-card__desc">MIL-STD-810H certified. Sapphire crystal glass that laughs at scratches. 5 ATM water resistance. Built for the mountains, the boardroom, and everywhere in between.</p>
+      </article>
+
+      <article class="feature-card" data-animate="fade-up" data-delay="100" tabindex="0">
+        <div class="feature-card__icon feature-card__icon--sky" aria-hidden="true"><i class="bi bi-brightness-high-fill"></i></div>
+        <h3 class="feature-card__title">AMOLED Always-On Display</h3>
+        <p class="feature-card__desc">2000 nit peak brightness AMOLED screen. Crystal clear in direct sunlight. Always-On mode shows your vitals at a glance — zero battery drain, maximum readability.</p>
+      </article>
+
+      <article class="feature-card" data-animate="fade-up" data-delay="200" tabindex="0">
+        <div class="feature-card__icon feature-card__icon--purple" aria-hidden="true"><i class="bi bi-moon-stars-fill"></i></div>
+        <h3 class="feature-card__title">Advanced Sleep Analysis</h3>
+        <p class="feature-card__desc">Track REM, deep, and light sleep cycles with clinical precision. Wake up to a personalized Sleep Score and actionable tips to improve your recovery and cognitive performance.</p>
+      </article>
+
+      <article class="feature-card" data-animate="fade-up" data-delay="300" tabindex="0">
+        <div class="feature-card__icon feature-card__icon--red" aria-hidden="true"><i class="bi bi-heart-pulse-fill"></i></div>
+        <h3 class="feature-card__title">ECG + Blood Oxygen</h3>
+        <p class="feature-card__desc">FDA-cleared ECG sensor detects irregular heart rhythms. Continuous SpO2 monitoring alerts you to low blood oxygen. Real data. Real insights. Real peace of mind.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section about" aria-labelledby="about-title">
+  <div class="container about__container">
+
+    <div class="about__content" data-animate="fade-right">
+      <span class="section-label">Our Story</span>
+      <h2 class="section-title" id="about-title">
+        More Than <span class="gradient-text">Technology</span>
+      </h2>
+      <p class="section-subtitle" style="margin-bottom: var(--space-8);">
+        In 2023, our founder faced a health scare that could have been prevented with earlier detection. That moment sparked a mission: to create a device that doesn't just track health — it actively protects it. PulseFit Pro X was born from the belief that everyone deserves access to intelligent, proactive healthcare insights. Three years of research, 47 prototypes, and partnerships with leading cardiologists later, we built the world's most intelligent smartwatch.
+      </p>
+
+      <div class="about__blocks">
+        <div class="about-block" data-animate="fade-up" data-delay="100">
+          <div class="about-block__icon" style="color: var(--clr-white);"><i class="bi bi-heart-pulse-fill"></i></div>
+          <h3 class="about-block__title">Our Mission</h3>
+          <p class="about-block__text">To democratize advanced health monitoring and empower individuals to take control of their wellness through AI-driven insights that were previously only available in clinical settings.</p>
+        </div>
+
+        <div class="about-block" data-animate="fade-up" data-delay="200">
+          <div class="about-block__icon" style="color: var(--clr-white);"><i class="bi bi-award-fill"></i></div>
+          <h3 class="about-block__title">Certified Quality</h3>
+          <p class="about-block__text">MIL-STD-810H military-grade certification for durability. Medical device certification for health sensors. IP68 water resistance rating. CE and FCC compliant for global safety standards.</p>
+        </div>
+
+        <div class="about-block" data-animate="fade-up" data-delay="300">
+          <div class="about-block__icon" style="color: var(--clr-white);"><i class="bi bi-lightning-charge-fill"></i></div>
+          <h3 class="about-block__title">Real Impact</h3>
+          <p class="about-block__text">Our early warning system has helped over 2,300 users detect potential health issues before they became serious. This isn't just technology — it's peace of mind on your wrist.</p>
+        </div>
+      </div>
+
+      <div class="about__stats" data-animate="fade-up" data-delay="400">
+        <div class="about-stat">
+          <div class="about-stat__num">2,300+</div>
+          <div class="about-stat__label">Early Detections</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat__num">47</div>
+          <div class="about-stat__label">Prototypes</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat__num">3</div>
+          <div class="about-stat__label">Years R&D</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat__num">99.2%</div>
+          <div class="about-stat__label">Accuracy Rate</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__visual" data-animate="fade-left" data-delay="200">
+      <div class="about__image-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500&h=500&fit=crop"
+          alt="PulseFit Pro X smartwatch showing advanced health features"
+          class="about__image"
+          loading="lazy"
+          width="500"
+          height="500"
+        />
+        <div class="about__badge" style="background: linear-gradient(135deg, var(--clr-blue), var(--clr-sky));">
+          <i class="bi bi-shield-check-fill"></i>
+          <span>MIL-STD-810H Certified</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="showcase" class="section showcase" aria-labelledby="showcase-title">
+  <div class="container showcase__container">
+
+    <div class="showcase__image-wrap" data-animate="fade-right">
+      <div class="showcase__image-bg" aria-hidden="true"></div>
+      <img
+        id="showcase-image"
+        src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=560&h=560&fit=crop"
+        alt="PulseFit Pro X smartwatch in Midnight Black"
+        class="showcase__image"
+        loading="lazy"
+        width="560"
+        height="560"
+      />
+    </div>
+
+    <div class="showcase__content" data-animate="fade-left" data-delay="200">
+      <span class="section-label">Product Gallery</span>
+      <h2 class="section-title" id="showcase-title">
+        Crafted to <span class="gradient-text">Perfection</span>
+      </h2>
+      <p class="section-subtitle">
+        Available in four exclusive colorways — each one a statement. Choose yours and make it personal.
+      </p>
+
+      <div class="color-picker" role="group" aria-label="Choose watch color">
+        <span class="color-picker__label">Color:</span>
+        <div class="color-picker__dots">
+          <button class="color-dot color-dot--black active"  data-color="Midnight Black"   aria-label="Midnight Black"   aria-pressed="true"></button>
+          <button class="color-dot color-dot--silver"        data-color="Silver Titanium"  aria-label="Silver Titanium"  aria-pressed="false"></button>
+          <button class="color-dot color-dot--blue"          data-color="Ocean Blue"        aria-label="Ocean Blue"        aria-pressed="false"></button>
+          <button class="color-dot color-dot--rose"          data-color="Rose Gold"         aria-label="Rose Gold"         aria-pressed="false"></button>
+        </div>
+        <span id="color-name" class="color-picker__name">Midnight Black</span>
+      </div>
+
+      <ul class="showcase__specs" aria-label="Key specifications">
+        <li class="spec-item">AMOLED Always-On Display</li>
+        <li class="spec-item">14-Day Battery Life</li>
+        <li class="spec-item">Built-in GPS + GLONASS</li>
+        <li class="spec-item">ECG + SpO2 Monitoring</li>
+        <li class="spec-item">5 ATM Water Resistance</li>
+        <li class="spec-item">Military-Grade Build</li>
+        <li class="spec-item">iOS &amp; Android Compatible</li>
+        <li class="spec-item">AI Personalized Coaching</li>
+      </ul>
+
+      <div style="margin-top: var(--space-8); display: flex; gap: var(--space-4); flex-wrap: wrap;">
+        <a href="#pricing" class="btn btn--primary btn--lg">Pre-Order — $199</a>
+        <a href="#features" class="btn btn--outline btn--lg">See All Features</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="comparison" class="section comparison" aria-labelledby="comparison-title">
+  <div class="container">
+
+    <div class="text-center" data-animate="fade-up">
+      <span class="section-label">The PulseFit Advantage</span>
+      <h2 class="section-title" id="comparison-title">
+        How We <span class="gradient-text">Compare</span>
+      </h2>
+      <p class="section-subtitle">
+        See why thousands of athletes, professionals, and health enthusiasts choose PulseFit Pro X over the competition.
+      </p>
+    </div>
+
+    <div class="comparison__table-wrap" data-animate="fade-up" data-delay="200">
+      <table class="comparison__table" aria-label="Feature comparison between PulseFit Pro X and competitors">
+        <thead>
+          <tr>
+            <th scope="col" style="text-align:left">Feature</th>
+            <th scope="col" class="highlight">PulseFit Pro X</th>
+            <th scope="col">Traditional Smartwatch</th>
+            <th scope="col">Budget Tracker</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>AI Health Insights</td>
+            <td class="highlight"><span class="check" aria-label="Yes"><i class="bi bi-check-lg"></i></span></td>
+            <td><span class="partial">Limited</span></td>
+            <td><span class="cross" aria-label="No"><i class="bi bi-x-lg"></i></span></td>
+          </tr>
+          <tr>
+            <td>Battery Life</td>
+            <td class="highlight"><span class="check">14 Days</span></td>
+            <td><span class="partial">1–3 Days</span></td>
+            <td><span class="partial">5–7 Days</span></td>
+          </tr>
+          <tr>
+            <td>ECG Monitoring</td>
+            <td class="highlight"><span class="check"><i class="bi bi-check-lg"></i></span></td>
+            <td><span class="partial">Select Models</span></td>
+            <td><span class="cross"><i class="bi bi-x-lg"></i></span></td>
+          </tr>
+          <tr>
+            <td>Blood Oxygen (SpO2)</td>
+            <td class="highlight"><span class="check"><i class="bi bi-check-lg"></i></span></td>
+            <td><span class="check"><i class="bi bi-check-lg"></i></span></td>
+            <td><span class="cross"><i class="bi bi-x-lg"></i></span></td>
+          </tr>
+          <tr>
+            <td>Built-in GPS</td>
+            <td class="highlight"><span class="check"><i class="bi bi-check-lg"></i></span></td>
+            <td><span class="partial">Select Models</span></td>
+            <td><span class="cross"><i class="bi bi-x-lg"></i></span></td>
+          </tr>
+          <tr>
+            <td>Military-Grade Build</td>
+            <td class="highlight"><span class="check"><i class="bi bi-check-lg"></i></span></td>
+            <td><span class="cross"><i class="bi bi-x-lg"></i></span></td>
+            <td><span class="cross"><i class="bi bi-x-lg"></i></span></td>
+          </tr>
+          <tr>
+            <td>Advanced Sleep Analysis</td>
+            <td class="highlight"><span class="check"><i class="bi bi-check-lg"></i></span></td>
+            <td><span class="partial">Basic</span></td>
+            <td><span class="partial">Basic</span></td>
+          </tr>
+          <tr>
+            <td>AMOLED Always-On Display</td>
+            <td class="highlight"><span class="check"><i class="bi bi-check-lg"></i></span></td>
+            <td><span class="partial">Select Models</span></td>
+            <td><span class="cross"><i class="bi bi-x-lg"></i></span></td>
+          </tr>
+          <tr>
+            <td>5 ATM Water Resistance</td>
+            <td class="highlight"><span class="check"><i class="bi bi-check-lg"></i></span></td>
+            <td><span class="partial">3 ATM Typical</span></td>
+            <td><span class="partial">IP67</span></td>
+          </tr>
+          <tr>
+            <td>Starting Price</td>
+            <td class="highlight" style="font-weight:700;">$199</td>
+            <td><span>$399+</span></td>
+            <td><span>$49–$99</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+<section id="health" class="section health" aria-labelledby="health-title">
+  <div class="container health__container">
+
+    <div data-animate="fade-right">
+      <span class="section-label">Real-Time Monitoring</span>
+      <h2 class="section-title" id="health-title" style="color:white;">
+        Your Health,<br><span class="gradient-text">At a Glance</span>
+      </h2>
+      <p class="section-subtitle" style="color: rgba(255,255,255,0.6); margin-bottom: var(--space-8);">
+        PulseFit Pro X tracks 8 critical health markers 24/7. See your body's story unfold in real time — and let AI turn data into action.
+      </p>
+
+      <ul class="health__metrics" aria-label="Real-time health metrics">
+
+        <li class="metric-bar" data-animate="fade-right" data-delay="100">
+          <div class="metric-bar__icon" style="background: rgba(239,68,68,0.15); color: #EF4444;"><i class="bi bi-heart-pulse-fill"></i></div>
+          <div class="metric-bar__info">
+            <div class="metric-bar__name">Heart Rate</div>
+            <div class="metric-bar__track">
+              <div class="metric-bar__fill" style="background: linear-gradient(90deg, #EF4444, #F97316); width: 0%;" data-width="78%"></div>
+            </div>
+          </div>
+          <output class="metric-bar__value" aria-label="Heart Rate value">78 BPM</output>
+        </li>
+
+        <li class="metric-bar" data-animate="fade-right" data-delay="200">
+          <div class="metric-bar__icon" style="background: rgba(56,189,248,0.15); color: #38BDF8;"><i class="bi bi-moon-stars-fill"></i></div>
+          <div class="metric-bar__info">
+            <div class="metric-bar__name">Sleep Quality</div>
+            <div class="metric-bar__track">
+              <div class="metric-bar__fill" style="background: linear-gradient(90deg, #38BDF8, #818CF8); width: 0%;" data-width="85%"></div>
+            </div>
+          </div>
+          <output class="metric-bar__value" aria-label="Sleep Quality value">8.5 hrs</output>
+        </li>
+
+        <li class="metric-bar" data-animate="fade-right" data-delay="300">
+          <div class="metric-bar__icon" style="background: rgba(34,197,94,0.15); color: #22C55E;"><i class="bi bi-fire"></i></div>
+          <div class="metric-bar__info">
+            <div class="metric-bar__name">Calories Burned</div>
+            <div class="metric-bar__track">
+              <div class="metric-bar__fill" style="background: linear-gradient(90deg, #22C55E, #84CC16); width: 0%;" data-width="65%"></div>
+            </div>
+          </div>
+          <output class="metric-bar__value" aria-label="Calories Burned value">1,847</output>
+        </li>
+
+        <li class="metric-bar" data-animate="fade-right" data-delay="400">
+          <div class="metric-bar__icon" style="background: rgba(168,85,247,0.15); color: #A855F7;"><i class="bi bi-yin-yang"></i></div>
+          <div class="metric-bar__info">
+            <div class="metric-bar__name">Stress Level</div>
+            <div class="metric-bar__track">
+              <div class="metric-bar__fill" style="background: linear-gradient(90deg, #A855F7, #EC4899); width: 0%;" data-width="30%"></div>
+            </div>
+          </div>
+          <output class="metric-bar__value" aria-label="Stress Level value">Low</output>
+        </li>
+
+        <li class="metric-bar" data-animate="fade-right" data-delay="500">
+          <div class="metric-bar__icon" style="background: rgba(249,115,22,0.15); color: #F97316;"><i class="bi bi-droplet-fill"></i></div>
+          <div class="metric-bar__info">
+            <div class="metric-bar__name">Blood Oxygen (SpO2)</div>
+            <div class="metric-bar__track">
+              <div class="metric-bar__fill" style="background: linear-gradient(90deg, #F97316, #FBBF24); width: 0%;" data-width="98%"></div>
+            </div>
+          </div>
+          <output class="metric-bar__value" aria-label="Blood Oxygen value">98%</output>
+        </li>
+
+      </ul>
+    </div>
+
+    <div data-animate="fade-left" data-delay="200">
+      <div class="health__charts">
+
+        <article class="health-chart-card" data-animate="zoom" data-delay="100">
+          <div class="health-chart-card__icon pulse-ring" style="color: #EF4444;" aria-hidden="true"><i class="bi bi-heart-pulse-fill"></i></div>
+          <h3 class="health-chart-card__title">Resting Heart Rate</h3>
+          <output class="health-chart-card__value" data-counter="62" data-suffix=" BPM" aria-label="Resting Heart Rate">0 BPM</output>
+          <p class="health-chart-card__sub">Excellent ↓ 4 vs last week</p>
+        </article>
+
+        <article class="health-chart-card" data-animate="zoom" data-delay="200">
+          <div class="health-chart-card__icon" style="color: #3B82F6;" aria-hidden="true"><i class="bi bi-person-walking"></i></div>
+          <h3 class="health-chart-card__title">Daily Steps</h3>
+          <output class="health-chart-card__value" data-counter="12547" data-suffix="" aria-label="Daily Steps">0</output>
+          <p class="health-chart-card__sub">Goal: 10,000 ✓</p>
+        </article>
+
+        <article class="health-chart-card" data-animate="zoom" data-delay="300">
+          <div class="health-chart-card__icon" style="color: #38BDF8;" aria-hidden="true"><i class="bi bi-moon-stars-fill"></i></div>
+          <h3 class="health-chart-card__title">Sleep Score</h3>
+          <output class="health-chart-card__value" data-counter="91" data-suffix="/100" aria-label="Sleep Score">0/100</output>
+          <p class="health-chart-card__sub">Excellent · REM: 2.1h</p>
+        </article>
+
+        <article class="health-chart-card" data-animate="zoom" data-delay="400">
+          <div class="health-chart-card__icon" style="color: #22C55E;" aria-hidden="true"><i class="bi bi-fire"></i></div>
+          <h3 class="health-chart-card__title">Calories Burned</h3>
+          <output class="health-chart-card__value" data-counter="1847" data-suffix=" kcal" aria-label="Calories Burned">0 kcal</output>
+          <p class="health-chart-card__sub">Active: 543 · Resting: 1304</p>
+        </article>
+
+        <article class="health-chart-card" data-animate="zoom" data-delay="500">
+          <div class="health-chart-card__icon" style="color: #F97316;" aria-hidden="true"><i class="bi bi-droplet-fill"></i></div>
+          <h3 class="health-chart-card__title">Blood Oxygen</h3>
+          <output class="health-chart-card__value" data-counter="98" data-suffix="%" aria-label="Blood Oxygen">0%</output>
+          <p class="health-chart-card__sub">Normal · 24/7 monitoring</p>
+        </article>
+
+        <article class="health-chart-card" data-animate="zoom" data-delay="600">
+          <div class="health-chart-card__icon" style="color: #A855F7;" aria-hidden="true"><i class="bi bi-yin-yang"></i></div>
+          <h3 class="health-chart-card__title">Stress Index</h3>
+          <output class="health-chart-card__value" data-counter="28" data-suffix="/100" aria-label="Stress Index">0/100</output>
+          <p class="health-chart-card__sub">Low stress · Optimal zone</p>
+        </article>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="app" class="section app-section" aria-labelledby="app-title">
+  <div class="container app-section__container">
+
+    <div style="text-align:center;" data-animate="zoom">
+      <img
+        src="assets/images/app-mockup.png"
+        alt="PulseFit App dashboard showing health data, heart rate graph, sleep score and step count on iPhone"
+        class="app-section__image"
+        loading="lazy"
+        width="360"
+        height="480"
+      />
+    </div>
+
+    <div data-animate="fade-left" data-delay="200">
+      <span class="section-label">PulseFit App</span>
+      <h2 class="section-title" id="app-title">
+        Your Health <span class="gradient-text">Command Center</span>
+      </h2>
+      <p class="section-subtitle">
+        The PulseFit app transforms raw data into a clear picture of your health. Available on iOS and Android — free with every device.
+      </p>
+
+      <div class="app-features">
+
+        <div class="app-feature" data-animate="fade-left" data-delay="100">
+          <div class="app-feature__icon" aria-hidden="true"><i class="bi bi-bar-chart-line-fill"></i></div>
+          <div>
+            <div class="app-feature__title">Live Dashboard</div>
+            <div class="app-feature__desc">Real-time health metrics with beautiful charts and trend analysis. Instantly understand your body's patterns.</div>
+          </div>
+        </div>
+
+        <div class="app-feature" data-animate="fade-left" data-delay="200">
+          <div class="app-feature__icon" aria-hidden="true"><i class="bi bi-trophy-fill"></i></div>
+          <div>
+            <div class="app-feature__title">Workout History & Coaching</div>
+            <div class="app-feature__desc">Log 80+ workout types. Get AI-powered coaching tips based on your performance trends and recovery state.</div>
+          </div>
+        </div>
+
+        <div class="app-feature" data-animate="fade-left" data-delay="300">
+          <div class="app-feature__icon" aria-hidden="true"><i class="bi bi-bell-fill"></i></div>
+          <div>
+            <div class="app-feature__title">Smart Notifications</div>
+            <div class="app-feature__desc">Calls, texts, and app alerts delivered silently to your wrist. Stay connected without missing a beat.</div>
+          </div>
+        </div>
+
+        <div class="app-feature" data-animate="fade-left" data-delay="400">
+          <div class="app-feature__icon" aria-hidden="true"><i class="bi bi-bullseye"></i></div>
+          <div>
+            <div class="app-feature__title">Goal Tracking & Streaks</div>
+            <div class="app-feature__desc">Set daily, weekly, and monthly goals. Build healthy habits with streak tracking and achievement badges.</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="app-stores">
+        <a href="#" class="app-store-btn" id="app-store-ios" aria-label="Download on the App Store">
+          <span class="app-store-btn__icon" aria-hidden="true"><i class="bi bi-apple"></i></span>
+          <div>
+            <div style="font-size: 10px; font-weight: 400; opacity: 0.7;">Download on the</div>
+            <div style="font-size: 15px; font-weight: 700;">App Store</div>
+          </div>
+        </a>
+        <a href="#" class="app-store-btn" id="app-store-android" aria-label="Get it on Google Play">
+          <span class="app-store-btn__icon" aria-hidden="true"><i class="bi bi-google-play"></i></span>
+          <div>
+            <div style="font-size: 10px; font-weight: 400; opacity: 0.7;">Get it on</div>
+            <div style="font-size: 15px; font-weight: 700;">Google Play</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="testimonials" class="section testimonials" aria-labelledby="testimonials-title">
+  <div class="container">
+
+    <div class="text-center animate-up" data-animate="fade-up">
+      <span class="section-label">Customer Reviews</span>
+      <h2 class="section-title" id="testimonials-title">
+        Loved by <span class="gradient-text">10,000+ Athletes</span>
+      </h2>
+      <p class="section-subtitle">
+        Real people. Real results. See why PulseFit Pro X is the #1 rated smartwatch for fitness-focused individuals.
+      </p>
+    </div>
+
+    <div id="testimonialCarousel" class="carousel slide testimonials__carousel mt-5" data-bs-ride="carousel" data-bs-interval="5000" data-animate="fade-up" data-delay="200">
+
+      <div class="carousel-indicators testimonials__dots position-static my-4">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active testimonials__dot" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" class="testimonials__dot" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" class="testimonials__dot" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner px-md-5">
+
+        <div class="carousel-item active">
+          <div class="row g-4 justify-content-center">
+            
+            <div class="col-lg-4 col-md-6 col-12">
+              <article class="testimonial-card h-100 m-0">
+                <div class="testimonial-card__header">
+                  <div>
+                    <div class="testimonial-card__name">Sarah Mitchell</div>
+                    <div class="testimonial-card__role">Marathon Runner, Chicago</div>
+                    <div class="testimonial-card__verified"><i class="bi bi-patch-check-fill me-1"></i> Verified Purchase</div>
+                  </div>
+                </div>
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="testimonial-card__text">"I've worn Garmin, Fitbit, and Apple Watch — nothing comes close to the PulseFit Pro X. The AI coaching literally improved my marathon time by 8 minutes. The battery lasts my entire training week. I'm obsessed."</p>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 d-none d-md-block">
+              <article class="testimonial-card h-100 m-0">
+                <div class="testimonial-card__header">
+                  <div>
+                    <div class="testimonial-card__name">Ahmed Hassan</div>
+                    <div class="testimonial-card__role">Software Engineer, Cairo</div>
+                    <div class="testimonial-card__verified"><i class="bi bi-patch-check-fill me-1"></i> Verified Purchase</div>
+                  </div>
+                </div>
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="testimonial-card__text">"كنت أبحث عن ساعة ذكية تدعم اللغة العربية وتعمل بشكل ممتاز في حرارة مصر. PulseFit Pro X exceeded my expectations. The battery lasts forever and the health tracking is incredibly accurate. Best purchase I've made this year."</p>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-12 d-none d-lg-block">
+              <article class="testimonial-card h-100 m-0">
+                <div class="testimonial-card__header">
+                  <div>
+                    <div class="testimonial-card__name">Amara Diallo</div>
+                    <div class="testimonial-card__role">Yoga Instructor, Paris</div>
+                    <div class="testimonial-card__verified"><i class="bi bi-patch-check-fill me-1"></i> Verified Purchase</div>
+                  </div>
+                </div>
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="testimonial-card__text">"The sleep analysis is unreal. I had no idea my sleep was that poor until PulseFit showed me exactly why I was tired. Two months in, my sleep score went from 62 to 89. My energy levels are completely transformed."</p>
+              </article>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4 justify-content-center">
+            
+            <div class="col-lg-4 col-md-6 col-12">
+              <article class="testimonial-card h-100 m-0">
+                <div class="testimonial-card__header">
+                  <div>
+                    <div class="testimonial-card__name">Marcus Chen</div>
+                    <div class="testimonial-card__role">CrossFit Athlete, Sydney</div>
+                    <div class="testimonial-card__verified"><i class="bi bi-patch-check-fill me-1"></i> Verified Purchase</div>
+                  </div>
+                </div>
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="testimonial-card__text">"Military-grade build is no joke — I've dropped this thing more times than I can count. Still flawless. The GPS accuracy during outdoor WODs is spot on. The Rose Gold colorway looks stunning. 10/10 no hesitation."</p>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 d-none d-md-block">
+              <article class="testimonial-card h-100 m-0">
+                <div class="testimonial-card__header">
+                  <div>
+                    <div class="testimonial-card__name">Nour El-Din</div>
+                    <div class="testimonial-card__role">Fitness Trainer, Alexandria</div>
+                    <div class="testimonial-card__verified"><i class="bi bi-patch-check-fill me-1"></i> Verified Purchase</div>
+                  </div>
+                </div>
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="testimonial-card__text">"As a fitness trainer in Alexandria, I recommend this to all my clients. The sleep tracking and heart rate monitoring are spot on. The Arabic interface is a huge plus. Finally a smartwatch that understands our market."</p>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-12 d-none d-lg-block">
+              <article class="testimonial-card h-100 m-0">
+                <div class="testimonial-card__header">
+                  <div>
+                    <div class="testimonial-card__name">David Vance</div>
+                    <div class="testimonial-card__role">Outdoor Adventurer, Aspen</div>
+                    <div class="testimonial-card__verified"><i class="bi bi-patch-check-fill me-1"></i> Verified Purchase</div>
+                  </div>
+                </div>
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="testimonial-card__text">"Tested this hiking the Colorado Trail. Navigating through heavy storms using the built-in GPS and compass. The durability is incredible. The battery only dropped 15% after 2 full days of GPS tracking."</p>
+              </article>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4 justify-content-center">
+            
+            <div class="col-lg-4 col-md-6 col-12">
+              <article class="testimonial-card h-100 m-0">
+                <div class="testimonial-card__header">
+                  <div>
+                    <div class="testimonial-card__name">Elena Rostova</div>
+                    <div class="testimonial-card__role">Health Coach, Munich</div>
+                    <div class="testimonial-card__verified"><i class="bi bi-patch-check-fill me-1"></i> Verified Purchase</div>
+                  </div>
+                </div>
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="testimonial-card__text">"As a wellness coach, I recommend the PulseFit Pro X to all my clients. The heart rate and sleep insights are highly accurate and allow us to make data-driven wellness plans. Absolute game changer."</p>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 d-none d-md-block">
+              <article class="testimonial-card h-100 m-0">
+                <div class="testimonial-card__header">
+                  <div>
+                    <div class="testimonial-card__name">Fatima Mahmoud</div>
+                    <div class="testimonial-card__role">Medical Doctor, Giza</div>
+                    <div class="testimonial-card__verified"><i class="bi bi-patch-check-fill me-1"></i> Verified Purchase</div>
+                  </div>
+                </div>
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="testimonial-card__text">"As a doctor, I'm impressed by the medical-grade accuracy of the ECG and SpO2 readings. I use it to monitor my patients' progress remotely. The local support team in Cairo is excellent. Highly recommended for healthcare professionals."</p>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-12 d-none d-lg-block">
+              <article class="testimonial-card h-100 m-0">
+                <div class="testimonial-card__header">
+                  <div>
+                    <div class="testimonial-card__name">Sofia Vergara</div>
+                    <div class="testimonial-card__role">Fitness Enthusiast, Miami</div>
+                    <div class="testimonial-card__verified"><i class="bi bi-patch-check-fill me-1"></i> Verified Purchase</div>
+                  </div>
+                </div>
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <p class="testimonial-card__text">"The Rose Gold version is gorgeous. I get compliments on it everywhere. The daily step count and calories burned features keep me motivated. Plus, it syncs instantly with my iPhone."</p>
+              </article>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="testimonials__controls position-relative mt-2">
+        <button class="testimonials__prev position-absolute start-0 top-50 translate-middle-y z-3" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" aria-label="Previous slide">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+        <button class="testimonials__next position-absolute end-0 top-50 translate-middle-y z-3" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" aria-label="Next slide">
+          <i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="statistics" class="statistics" aria-labelledby="statistics-title">
+  <div class="container">
+    <h2 id="statistics-title" class="sr-only">Our Impact in Numbers</h2>
+    <div class="statistics__grid">
+
+      <article class="stat-card" data-animate="zoom" data-delay="100">
+        <span class="stat-card__icon" aria-hidden="true"><i class="bi bi-emoji-smile-fill text-info"></i></span>
+        <strong class="stat-card__num" data-counter="10000" data-suffix="+" aria-label="10,000+ happy customers">0</strong>
+        <span class="stat-card__label">Happy Customers</span>
+      </article>
+
+      <article class="stat-card" data-animate="zoom" data-delay="200">
+        <span class="stat-card__icon" aria-hidden="true"><i class="bi bi-activity text-success"></i></span>
+        <strong class="stat-card__num" data-counter="500000" data-suffix="+" aria-label="500,000+ workouts tracked">0</strong>
+        <span class="stat-card__label">Workouts Tracked</span>
+      </article>
+
+      <article class="stat-card" data-animate="zoom" data-delay="300">
+        <span class="stat-card__icon" aria-hidden="true"><i class="bi bi-star-fill text-warning"></i></span>
+        <strong class="stat-card__num" data-counter="99" data-suffix="%" aria-label="99% customer satisfaction">0</strong>
+        <span class="stat-card__label">Satisfaction Rate</span>
+      </article>
+
+      <article class="stat-card" data-animate="zoom" data-delay="400">
+        <span class="stat-card__icon" aria-hidden="true"><i class="bi bi-globe-americas text-primary"></i></span>
+        <strong class="stat-card__num" data-counter="40" data-suffix="+" aria-label="40+ countries served">0</strong>
+        <span class="stat-card__label">Countries Served</span>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="press" aria-labelledby="press-label">
+  <div class="container">
+    <p class="press__label" id="press-label">As Featured In</p>
+    <ul class="press__logos" aria-label="Press logos">
+      <li class="press__logo" title="TechCrunch">TechCrunch</li>
+      <li class="press__logo" title="Forbes">Forbes</li>
+      <li class="press__logo" title="Wired">WIRED</li>
+      <li class="press__logo" title="Men's Health">Men's Health</li>
+      <li class="press__logo" title="TIME">TIME</li>
+      <li class="press__logo" title="CNET">CNET</li>
+    </ul>
+  </div>
+</section>
+
+<section id="pricing" class="section pricing" aria-labelledby="pricing-title">
+  <div class="container">
+
+    <div class="pricing__header" data-animate="fade-up">
+      <span class="section-label">Simple Pricing</span>
+      <h2 class="section-title" id="pricing-title">
+        Choose Your <span class="gradient-text">PulseFit Plan</span>
+      </h2>
+      <p class="section-subtitle" style="margin: 0 auto var(--space-6);">
+        All plans include the PulseFit Pro X watch. Choose the subscription tier that fits your lifestyle.
+      </p>
+
+      <div class="pricing-toggle" role="group" aria-label="Billing frequency">
+        <button class="pricing-toggle__btn active" id="billing-monthly" aria-pressed="true">Monthly</button>
+        <button class="pricing-toggle__btn" id="billing-yearly" aria-pressed="false">
+          Yearly
+          <span class="pricing-toggle__save">Save 20%</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="pricing__grid">
+
+      <article class="pricing-card" data-animate="fade-up" data-delay="100">
+        <h3 class="pricing-card__tier">Essential</h3>
+        <div class="pricing-card__price">
+          <span class="pricing-card__currency">$</span>
+          <span class="pricing-card__amount" data-monthly="199" data-yearly="159">199</span>
+        </div>
+        <p class="pricing-card__period">one-time device + $0/mo</p>
+        <p class="pricing-card__desc">Perfect for beginners starting their health journey. Includes the PulseFit Pro X watch with essential features.</p>
+        <ul class="pricing-features" aria-label="Essential plan features">
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>PulseFit Pro X Watch</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Basic Health Tracking</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Heart Rate &amp; SpO2</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Sleep Tracking</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>1-Year Warranty</li>
+          <li class="pricing-feature"><span class="pricing-feature__check pricing-feature__check--no" aria-hidden="true"><i class="bi bi-x-lg"></i></span><span style="opacity:0.5">AI Health Insights</span></li>
+          <li class="pricing-feature"><span class="pricing-feature__check pricing-feature__check--no" aria-hidden="true"><i class="bi bi-x-lg"></i></span><span style="opacity:0.5">Advanced Sleep Analysis</span></li>
+          <li class="pricing-feature"><span class="pricing-feature__check pricing-feature__check--no" aria-hidden="true"><i class="bi bi-x-lg"></i></span><span style="opacity:0.5">Priority Support</span></li>
+        </ul>
+        <button class="pricing-card__btn pricing-card__btn--outline" id="plan-essential" type="button">Get Essential</button>
+      </article>
+
+      <article class="pricing-card pricing-card--featured" data-animate="fade-up" data-delay="200">
+        <div class="pricing-card__badge" aria-label="Best value plan"><i class="bi bi-star-fill me-1"></i> Best Value</div>
+        <h3 class="pricing-card__tier">Pro</h3>
+        <div class="pricing-card__price">
+          <span class="pricing-card__currency">$</span>
+          <span class="pricing-card__amount" data-monthly="249" data-yearly="199">249</span>
+        </div>
+        <p class="pricing-card__period">one-time device + $9.99/mo app</p>
+        <p class="pricing-card__desc">Unlock the full power of PulseFit. AI coaching, advanced analytics, and premium support for serious health enthusiasts.</p>
+        <ul class="pricing-features" aria-label="Pro plan features">
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Everything in Essential</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>AI Health Insights &amp; Coaching</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Advanced Sleep Analysis</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>ECG + Stress Monitoring</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>80+ Workout Modes</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>2-Year Extended Warranty</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Priority Email Support</li>
+          <li class="pricing-feature"><span class="pricing-feature__check pricing-feature__check--no" aria-hidden="true"><i class="bi bi-x-lg"></i></span><span style="opacity:0.5">Personal Health Coach</span></li>
+        </ul>
+        <button class="pricing-card__btn pricing-card__btn--primary" id="plan-pro" type="button">Pre-Order Pro <i class="bi bi-arrow-right ms-1"></i></button>
+      </article>
+
+      <article class="pricing-card" data-animate="fade-up" data-delay="300">
+        <h3 class="pricing-card__tier">Elite</h3>
+        <div class="pricing-card__price">
+          <span class="pricing-card__currency">$</span>
+          <span class="pricing-card__amount" data-monthly="349" data-yearly="279">349</span>
+        </div>
+        <p class="pricing-card__period">one-time device + $19.99/mo app</p>
+        <p class="pricing-card__desc">The ultimate PulseFit experience. Everything Pro includes, plus a dedicated personal health coach and lifetime warranty.</p>
+        <ul class="pricing-features" aria-label="Elite plan features">
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Everything in Pro</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Personal AI Health Coach</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Monthly Expert Consultation</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Lifetime Warranty</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Free Yearly Band Replacement</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>24/7 Priority Support</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Beta Feature Access</li>
+          <li class="pricing-feature"><span class="pricing-feature__check" aria-hidden="true"><i class="bi bi-check-lg"></i></span>Exclusive Elite Community</li>
+        </ul>
+        <button class="pricing-card__btn pricing-card__btn--outline" id="plan-elite" type="button">Get Elite</button>
+      </article>
+
+    </div>
+
+    <p style="text-align:center; margin-top: var(--space-8); font-size: var(--text-sm); color: var(--clr-text-muted);">
+      <i class="bi bi-shield-lock-fill me-1"></i> 30-day money-back guarantee &nbsp;·&nbsp; <i class="bi bi-truck me-1"></i> Free worldwide shipping &nbsp;·&nbsp; <i class="bi bi-credit-card-2-front-fill me-1"></i> Secure checkout
+    </p>
+
+  </div>
+</section>
+
+<section id="faq" class="section faq" aria-labelledby="faq-title">
+  <div class="container">
+
+    <div class="text-center" data-animate="fade-up">
+      <span class="section-label">Got Questions?</span>
+      <h2 class="section-title" id="faq-title">
+        Frequently Asked <span class="gradient-text">Questions</span>
+      </h2>
+    </div>
+
+    <div class="faq__grid">
+
+      <div class="faq__visual" data-animate="fade-right">
+        <div class="faq__visual-card">
+          <div class="faq__visual-icon" aria-hidden="true"><i class="bi bi-chat-left-dots-fill text-white-50"></i></div>
+          <h3 class="faq__visual-title">Still have questions?</h3>
+          <p class="faq__visual-text">Our expert support team is available 7 days a week to help you find the perfect PulseFit plan.</p>
+          <a href="#contact" class="btn btn--primary" style="width:100%;justify-content:center;">Contact Support</a>
+          <div style="margin-top: var(--space-6); padding-top: var(--space-6); border-top: 1px solid rgba(255,255,255,0.1);">
+            <p style="font-size: var(--text-2xl); font-weight: 800; color: var(--clr-sky); margin-bottom: var(--space-3);">Average response time</p>
+            <p style="font-size: var(--text-2xl); font-weight: 800; color: var(--clr-sky);">Under 2 hours during business days</p>
+          </div>
+        </div>
+      </div>
+
+      <div data-animate="fade-left" data-delay="200">
+        <div class="faq-list" id="faq-list" role="list">
+
+          <div class="faq-item open" role="listitem">
+            <button class="faq-item__question" aria-expanded="true" id="faq-q1" aria-controls="faq-a1">
+              What makes PulseFit Pro X different from other smartwatches?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" id="faq-a1" role="region" aria-labelledby="faq-q1">
+              <div class="faq-item__answer-inner">
+                PulseFit Pro X combines AI-powered health coaching, a 14-day battery, military-grade durability, and clinical-grade sensors (ECG + SpO2) in a single device priced significantly below comparable competitors. Our proprietary AI engine analyzes 50+ health data points to give you personalized, actionable insights — not just raw numbers.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-item__question" aria-expanded="false" id="faq-q2" aria-controls="faq-a2">
+              Is the ECG monitoring medically certified?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" id="faq-a2" role="region" aria-labelledby="faq-q2">
+              <div class="faq-item__answer-inner">
+                Yes. The PulseFit Pro X ECG sensor has received FDA clearance for detecting atrial fibrillation (AFib) and generating ECG reports that can be shared with your doctor. The SpO2 sensor has been clinically validated across diverse skin tones for accuracy within ±2% of medical-grade oximeters.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-item__question" aria-expanded="false" id="faq-q3" aria-controls="faq-a3">
+              How long does the battery actually last?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" id="faq-a3" role="region" aria-labelledby="faq-q3">
+              <div class="faq-item__answer-inner">
+                Up to 14 days in standard mode (AOD off), 10 days with Always-On Display enabled, and 7 days with continuous GPS tracking. A full charge takes just 45 minutes with the included magnetic charger. A 15-minute quick charge gives you 2 full days of use.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-item__question" aria-expanded="false" id="faq-q4" aria-controls="faq-a4">
+              Is it compatible with my iPhone / Android phone?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" id="faq-a4" role="region" aria-labelledby="faq-q4">
+              <div class="faq-item__answer-inner">
+                Yes — PulseFit Pro X works seamlessly with both iOS (iPhone 8 and later, iOS 14+) and Android (Android 8.0+). The PulseFit app is available on both the App Store and Google Play Store, free with your device purchase.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-item__question" aria-expanded="false" id="faq-q5" aria-controls="faq-a5">
+              Can I swim or shower with the PulseFit Pro X?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" id="faq-a5" role="region" aria-labelledby="faq-q5">
+              <div class="faq-item__answer-inner">
+                Absolutely. The PulseFit Pro X is rated 5 ATM (50 meters water resistance), meaning it's safe for swimming, showering, surfing, and water sports. It also features automatic swim detection and can count laps in the pool. It is not designed for scuba diving or high-pressure water activities.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-item__question" aria-expanded="false" id="faq-q6" aria-controls="faq-a6">
+              When will my pre-order ship?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" id="faq-a6" role="region" aria-labelledby="faq-q6">
+              <div class="faq-item__answer-inner">
+                Pre-orders placed before August 31st will ship in September 2025, with early backers receiving their orders first. You'll receive a confirmation email immediately after purchase, and shipping tracking information when your order dispatches. Free worldwide shipping is included on all pre-orders.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-item__question" aria-expanded="false" id="faq-q7" aria-controls="faq-a7">
+              What's your return policy?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" id="faq-a7" role="region" aria-labelledby="faq-q7">
+              <div class="faq-item__answer-inner">
+                We offer a 30-day no-questions-asked money-back guarantee from the date of delivery. Simply contact support, ship the watch back in its original packaging, and receive a full refund including original shipping costs. The watch must be in good working condition.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-item__question" aria-expanded="false" id="faq-q8" aria-controls="faq-a8">
+              Can I change my watch band?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" id="faq-a8" role="region" aria-labelledby="faq-q8">
+              <div class="faq-item__answer-inner">
+                Yes! The PulseFit Pro X features a quick-release 22mm band system compatible with thousands of third-party bands. We also sell official PulseFit bands in silicone, leather, stainless steel mesh, and nylon braided styles. Elite plan subscribers receive one free band replacement per year.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="section contact" aria-labelledby="contact-title">
+  <div class="container contact__container">
+
+    <div data-animate="fade-right">
+      <span class="section-label">Get In Touch</span>
+      <h2 class="section-title" id="contact-title">
+        We're Here to <span class="gradient-text">Help You</span>
+      </h2>
+      <p class="section-subtitle" style="margin-bottom: var(--space-8);">
+        Questions, feedback, or partnership inquiries — our team responds within 2 hours.
+      </p>
+
+      <address class="contact__info">
+        <div class="contact__info-item">
+          <div class="contact__info-icon" aria-hidden="true" style="color: var(--clr-blue);"><i class="bi bi-geo-alt-fill"></i></div>
+          <div>
+            <strong class="contact__info-title">Our Office</strong>
+            <p class="contact__info-text">Cairo Business Plaza, 5th Floor<br>New Cairo City, Cairo 11865, Egypt</p>
+          </div>
+        </div>
+
+        <div class="contact__info-item">
+          <div class="contact__info-icon" aria-hidden="true" style="color: var(--clr-blue);"><i class="bi bi-envelope-fill"></i></div>
+          <div>
+            <strong class="contact__info-title">Email Us</strong>
+            <p class="contact__info-text">
+              <a href="mailto:hello@pulsefit.io" style="color: var(--clr-blue);">hello@pulsefit.io</a><br>
+              <a href="mailto:support@pulsefit.io" style="color: var(--clr-blue);">support@pulsefit.io</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="contact__info-item">
+          <div class="contact__info-icon" aria-hidden="true" style="color: var(--clr-blue);"><i class="bi bi-telephone-fill"></i></div>
+          <div>
+            <strong class="contact__info-title">Call Us</strong>
+            <p class="contact__info-text"><a href="tel:+201234567890">+20 123 456 7890</a><br>Mon–Fri: 9am–6pm EET</p>
+          </div>
+        </div>
+
+        <div class="contact__info-item">
+          <div class="contact__info-icon" aria-hidden="true" style="color: var(--clr-blue);"><i class="bi bi-share-fill"></i></div>
+          <div>
+            <strong class="contact__info-title">Follow Us</strong>
+            <p class="contact__info-text">
+              <a href="#" style="color: var(--clr-blue); margin-right: var(--space-3); font-size: 24px;"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" style="color: var(--clr-blue); margin-right: var(--space-3); font-size: 24px;"><i class="bi bi-instagram"></i></a>
+              <a href="#" style="color: var(--clr-blue); margin-right: var(--space-3); font-size: 24px;"><i class="bi bi-linkedin"></i></a>
+              <a href="#" style="color: var(--clr-blue); font-size: 24px;"><i class="bi bi-facebook"></i></a>
+            </p>
+          </div>
+        </div>
+      </address>
+
+      <figure class="contact__map" aria-label="Office location map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.6654321!2d31.3785!3d30.0131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAwJzQ3LjIiTiAzMcKwMjInNDYuNiJF!5e0!3m2!1sen!2seg!4v1620000000000!5m2!1sen!2seg"
+          width="100%" 
+          height="300" 
+          style="border:0; border-radius: var(--radius-lg);" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="PulseFit Office Location - New Cairo City, Egypt">
+        </iframe>
+      </figure>
+    </div>
+
+    <div data-animate="fade-left" data-delay="200">
+      <form id="contact-form" class="contact__form" novalidate aria-label="Contact form">
+        <h3 style="font-family: var(--font-heading); font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-6);">Send us a Message</h3>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="contact-name">Full Name <span aria-hidden="true">*</span></label>
+            <input type="text" id="contact-name" name="name" class="form-input" placeholder="John Smith" autocomplete="name" required aria-required="true" />
+            <span class="form-error" id="name-error" role="alert">Please enter your full name.</span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contact-email">Email Address <span aria-hidden="true">*</span></label>
+            <input type="email" id="contact-email" name="email" class="form-input" placeholder="john@example.com" autocomplete="email" required aria-required="true" />
+            <span class="form-error" id="email-error" role="alert">Please enter a valid email address.</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="contact-subject">Subject <span aria-hidden="true">*</span></label>
+          <select id="contact-subject" name="subject" class="form-select form-input" required aria-required="true">
+            <option value="" disabled selected>Select a topic…</option>
+            <option value="pre-order">Pre-Order Inquiry</option>
+            <option value="support">Technical Support</option>
+            <option value="returns">Returns & Refunds</option>
+            <option value="partnership">Partnership / Press</option>
+            <option value="other">Other</option>
+          </select>
+          <span class="form-error" id="subject-error" role="alert">Please select a subject.</span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="contact-message">Message <span aria-hidden="true">*</span></label>
+          <textarea id="contact-message" name="message" class="form-textarea" placeholder="Tell us how we can help you…" required aria-required="true" minlength="10"></textarea>
+          <span class="form-error" id="message-error" role="alert">Message must be at least 10 characters.</span>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--lg" id="contact-submit" style="width:100%; justify-content:center;" aria-label="Send message">
+          Send Message →
+        </button>
+
+        <div class="form-success" id="form-success" role="status" aria-live="polite">
+          <div style="font-size: 48px; margin-bottom: var(--space-3); color: var(--clr-green);"><i class="bi bi-check-circle-fill"></i></div>
+          <div style="font-size: var(--text-xl); font-weight: 700; color: var(--clr-green);">Message Sent!</div>
+          <p style="color: var(--clr-text-muted); margin-top: var(--space-2);">We'll get back to you within 2 hours.</p>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<aside id="newsletter" class="newsletter" aria-labelledby="newsletter-title">
+  <div class="newsletter__container" data-animate="fade-up">
+    <span class="newsletter__discount" aria-label="Discount offer"><i class="bi bi-gift-fill me-1"></i> GET 15% OFF YOUR FIRST ORDER</span>
+    <h2 class="newsletter__title" id="newsletter-title">
+      Join the PulseFit <span class="gradient-text">Community</span>
+    </h2>
+    <p class="newsletter__desc">
+      Subscribe for exclusive early access, health tips from our experts, and members-only deals.
+    </p>
+
+    <form class="newsletter__form" id="newsletter-form" novalidate aria-label="Newsletter signup form">
+      <label class="sr-only" for="newsletter-email">Email address</label>
+      <input
+        type="email"
+        id="newsletter-email"
+        name="email"
+        class="newsletter__input"
+        placeholder="Enter your email address…"
+        required
+        aria-required="true"
+        autocomplete="email"
+      />
+      <button type="submit" class="btn btn--green btn--lg" id="newsletter-submit" aria-label="Subscribe to newsletter">
+        Subscribe
+      </button>
+    </form>
+
+    <p class="newsletter__privacy"><i class="bi bi-shield-lock-fill me-1"></i> No spam, ever. Unsubscribe any time. We respect your privacy.</p>
+  </div>
+</aside>
+</main>
+
+<footer class="footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer__top">
+
+      <div class="footer__brand">
+        <a href="#hero" class="footer__logo" aria-label="PulseFit — Home">
+          <div class="navbar__logo-icon" aria-hidden="true">
+            <i class="bi bi-activity text-white" style="font-size: 20px;"></i>
+          </div>
+          PulseFit
+        </a>
+        <p class="footer__tagline">
+          Know Your Body. Own Your Day. The world's most intelligent smartwatch, engineered for people who demand more from every moment.
+        </p>
+        <nav class="footer__socials" aria-label="Social media links">
+          <a href="#" class="footer__social" aria-label="Follow us on Twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="footer__social" aria-label="Follow us on Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="footer__social" aria-label="Follow us on YouTube"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="footer__social" aria-label="Follow us on LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="footer__social" aria-label="Follow us on Facebook"><i class="bi bi-facebook"></i></a>
+        </nav>
+      </div>
+
+      <nav aria-labelledby="footer-product-heading">
+        <h3 class="footer__col-title" id="footer-product-heading">Product</h3>
+        <ul class="footer__links">
+          <li><a href="#features"  class="footer__link">Features</a></li>
+          <li><a href="#showcase"  class="footer__link">Product Gallery</a></li>
+          <li><a href="#health"    class="footer__link">Health Tracking</a></li>
+          <li><a href="#app"       class="footer__link">Mobile App</a></li>
+          <li><a href="#pricing"   class="footer__link">Pricing &amp; Plans</a></li>
+          <li><a href="#"          class="footer__link">Accessories</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-labelledby="footer-company-heading">
+        <h3 class="footer__col-title" id="footer-company-heading">Company</h3>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">About Us</a></li>
+          <li><a href="#" class="footer__link">Careers</a></li>
+          <li><a href="#" class="footer__link">Press Kit</a></li>
+          <li><a href="#" class="footer__link">Blog &amp; News</a></li>
+          <li><a href="#contact" class="footer__link">Contact Us</a></li>
+          <li><a href="#" class="footer__link">Partners</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-labelledby="footer-support-heading">
+        <h3 class="footer__col-title" id="footer-support-heading">Support</h3>
+        <ul class="footer__links">
+          <li><a href="#faq"    class="footer__link">FAQ</a></li>
+          <li><a href="#"       class="footer__link">Shipping Info</a></li>
+          <li><a href="#"       class="footer__link">Returns &amp; Refunds</a></li>
+          <li><a href="#"       class="footer__link">Warranty Policy</a></li>
+          <li><a href="#"       class="footer__link">User Manual</a></li>
+          <li><a href="#"       class="footer__link">Community Forum</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="footer__bottom">
+      <small class="footer__copy">© 2025 PulseFit Inc. All rights reserved. Made with <i class="bi bi-heart-fill text-danger mx-1" aria-hidden="true"></i> in San Francisco.</small>
+      <nav class="footer__legal" aria-label="Legal links">
+        <a href="#" class="footer__legal-link">Privacy Policy</a>
+        <a href="#" class="footer__legal-link">Terms of Service</a>
+        <a href="#" class="footer__legal-link">Cookie Policy</a>
+        <a href="#" class="footer__legal-link">Accessibility</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top of page" title="Back to top"><i class="bi bi-arrow-up-short"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

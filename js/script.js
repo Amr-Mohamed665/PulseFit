@@ -178,36 +178,36 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', addRipple);
   });
 
-  // Disabled gradual appearance animations
-  // const animatedEls = $$('[data-animate]');
+  
+  
 
-  // const revealObserver = new IntersectionObserver(
-  //   (entries) => {
-  //     entries.forEach(entry => {
-  //       if (entry.isIntersecting) {
-  //         entry.target.classList.add('animated');
+  
+  
+  
+  
+  
           
-  //         revealObserver.unobserve(entry.target);
+  
 
-  //         const fills = $$('.metric-bar__fill', entry.target);
-  //         fills.forEach(fill => {
-  //           const targetWidth = fill.getAttribute('data-width');
-  //           if (targetWidth) {
-  //             setTimeout(() => { fill.style.width = targetWidth; }, 200);
-  //           }
-  //         });
+  
+  
+  
+  
+  
+  
+  
 
-  //         const counters = $$('[data-counter]', entry.target.closest('section') || entry.target);
-  //         counters.forEach(startCounter);
-  //       }
-  //     });
-  //   },
-  //   { threshold: 0.12, rootMargin: '0px 0px -60px 0px' }
-  // );
+  
+  
+  
+  
+  
+  
+  
 
-  // animatedEls.forEach(el => revealObserver.observe(el));
+  
 
-  // Initialize Bootstrap carousel for testimonials
+  
   const testimonialCarousel = $('#testimonialCarousel');
   if (testimonialCarousel) {
     new bootstrap.Carousel(testimonialCarousel, {
